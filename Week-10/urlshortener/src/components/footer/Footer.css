@@ -1,0 +1,30 @@
+.footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: var(--primary);
+    min-width: 100%;
+    color: white;
+    bottom: 0;
+    position: fixed;
+    padding: 2rem 0;
+}
+  
+.footerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-grow: 0.1;
+}
+  
+.footerContent li {
+    list-style: none;
+    cursor: pointer;
+    margin-bottom: 0.25rem;
+}
+  
+.footerContent li:first-child {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+  

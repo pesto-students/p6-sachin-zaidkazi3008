@@ -1,0 +1,9 @@
+.app {
+  position: relative;
+}
+
+.main {
+  padding: 2rem 3rem;
+  max-width: 1140px;
+  margin: 0 auto;
+}
