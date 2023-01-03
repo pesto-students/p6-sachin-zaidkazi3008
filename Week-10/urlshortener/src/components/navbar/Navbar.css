@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    max-width: 1140px;
+    margin: 0.5rem auto;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  
+  .navbarLinks {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 0.8;
+    list-style-type: none;
+  }
+  
