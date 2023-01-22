@@ -1,0 +1,36 @@
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.result p {
+    color: black;
+    border: 1px solid var(--primary);
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+}
+
+.result>button {
+    padding: 0.5rem 1rem;
+    color: white;
+    border:none;
+    cursor: pointer;
+    background: var(--primary);
+}
+
+.result button.copied {
+    background-color: white;
+    color: black;
+    border: 1px solid var(--primary);
+    border-radius: 0.25rem;
+}
+
+.noData {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 1rem;
+}
