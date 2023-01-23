@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.counter{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.counter .add {
+  background-color: purple;
+}
+
+.counter .reset {
+  background-color:red ;
+}
+
+button {
+  border: none;
+  height: 30px;
+  margin: 10px 20px;
+  color: white;
+  cursor: pointer;
+}
+.counter .add:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.counter .reset:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
